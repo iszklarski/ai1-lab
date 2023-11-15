@@ -1,0 +1,197 @@
+html
+{
+    overflow-x: hidden;
+    font-family: tahoma;
+    margin: 0;
+    color: white;
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+[class*="col-"] {
+    width: 100%;
+  }
+
+header
+{ 
+    text-align: center;
+    background-color: #131215;
+    font-size: 45px;
+    margin: 0 auto;
+    list-style-type: none;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+    opacity: 0.8;
+}
+
+button {
+    width: 99%;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+input {
+    width: 99%;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    width: 105%;
+}
+
+.nav ul
+{
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.list li
+{
+    width: 100%;
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.list li:hover
+{
+    background-color: #131215;
+}
+
+.list ul li.checked 
+{
+    background: #888;
+    color: #fff;
+    text-decoration: none;
+}
+
+.list li.checked::before 
+{
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+main
+{
+    text-align: justify;
+    font-size: 25px;
+    margin: 0;
+    padding: 5%;
+    border: ridge;
+    border-color: black;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+}
+
+aside
+{   
+    opacity: 0.8;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #131215;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer
+{
+    float: left;
+    margin-top: 2%;
+    bottom: 0;
+    background-color: #131215;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+a:visited
+{
+    color: white;	
+}
+
+a:link
+{
+    color: white;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+p{
+    color: #f8f8f8; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 18px; 
+    font-weight: 500; 
+    line-height: 32px; 
+    margin: 0 0 24px
+}
+
+h1{
+    color: #ffffff; 
+    font-family: 'Raleway',sans-serif; 
+    font-size: 35px; 
+    font-weight: 800; 
+    line-height: 72px; 
+    margin: 0 0 24px; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px; 
+    letter-spacing: -1px; 
+    color: #DFBF84; 
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 0 #000; 
+    margin: 10px 0 24px; 
+    text-align: center; 
+    line-height: 50px;
+}
+
+h3{
+    color: #DFBF84; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 28px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px;
+}
+
